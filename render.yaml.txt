@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: jsp-war-app
+    env: bash
+    plan: free
+    buildCommand: ""
+    startCommand: ./start.sh
