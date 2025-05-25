@@ -1,5 +1,5 @@
 # Use official Tomcat base image with Java 11
-FROM tomcat:9.0-jdk21-temurin
+FROM tomcat:10.1-jdk21-temurin
 
 # Remove the default ROOT webapp to avoid conflicts
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
