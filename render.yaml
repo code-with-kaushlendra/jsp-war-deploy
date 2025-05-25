@@ -1,7 +1,7 @@
 services:
   - type: web
     name: jsp-war-app
-    env: bash
+    env: docker
     plan: free
     buildCommand: ""
     startCommand: ./start.sh
